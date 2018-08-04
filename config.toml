@@ -1,0 +1,36 @@
+baseurl = "/"
+languageCode = "zh-cmn-Hant"
+title = "deep.at.work"
+theme = "hugo-bingo"
+
+disableHugoGeneratorInject = true
+enableEmoji = true
+footnoteReturnLinkContents = "↩"
+hasCJKLanguage = true
+googleAnalytics = "UA-123-45"
+
+[permalinks]
+  post = "/posts/:slug/"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts"
+    weight = 20
+
+[params]
+  email = "jay@ekkso.com"
+  github = "jagsgill"
+  linkedin = "jagdeep-gill-118b7186"
+  #medium = "medium_username"
+  #twitter = "twitter_username"
+  #facebook = "facebook_username"
+  instagram = "deepatwork"
