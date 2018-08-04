@@ -1,0 +1,4 @@
+[submodule "themes/hugo-bingo"]
+	path = themes/hugo-bingo
+	url = https://github.com/jagsgill/hugo-bingo.git
+	branch = deepatwork-production
